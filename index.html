@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp: Wikipedia Viewer2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <img id="wikipedia-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/526px-Wikipedia-logo-v2.svg.png">
+    
+    <div id="form-content">
+      <form id="searchForm">
+        <input type="search" id="searchInput" required placeholder="Search Wikipedia" autocomplete="off">
+        <button type="submit" id="submitButton"><img src="http://bfundcdn.bedream.me/assets/filter/search_icon-4780f4e0891bca02ac6b6db36b6afd585564a267e8621d2e51e9d5a1e60a4803.png" alt="Search"></button>
+      </form>
+      <div>
+        <a title="Enlighten Me!" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id="randomSearchBtn">I'm Feeling Random</button>
+      </div>
+      
+  <ul id="pageList"></ul>
+</body>
+  
+    <script src="js/index.js"></script>
+</html>
