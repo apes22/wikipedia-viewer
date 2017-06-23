@@ -1,6 +1,6 @@
 # Wikipedia Viewer - An Intermediate Front End Development Project
 
-Allows a user to search and view Wikipedia articles.Uses Wikpedia's API to retrieve the articles. 
+Allows a user to search and view Wikipedia articles. Uses Wikpedia's API to retrieve the articles. 
 Built using Vanilla JS, HTML, and CSS3.
 
 ## Challenge Details from FreeCodeCamp
